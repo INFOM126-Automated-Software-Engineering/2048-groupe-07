@@ -1,5 +1,4 @@
-
-Before submitting a pull request, please read:
+## Before submitting a pull request, please read:
 
 - the CONTRIBUTING guide at @mettre l'adresse 
 - the commit message formatting guidelines at @mettre l'adresse 
@@ -8,7 +7,7 @@ For code changes:
 1. Include tests for any bug fixes or new features.
 2. Update documentation if relevant.
 
-Developer's Certificate of Origin 1.1
+## Developer's Certificate of Origin 1.1
 
 By making a contribution to this project, I certify that:
 
