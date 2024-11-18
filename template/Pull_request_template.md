@@ -1,9 +1,10 @@
+# Template Pull Request
 ## Before submitting a pull request, please read:
 
 - the CONTRIBUTING guide at @mettre l'adresse 
 - the commit message formatting guidelines at @mettre l'adresse 
 
-For code changes:
+### For code changes:
 1. Include tests for any bug fixes or new features.
 2. Update documentation if relevant.
 
