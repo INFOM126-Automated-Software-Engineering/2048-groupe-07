@@ -1,16 +1,16 @@
-# Dossier Template 
-Dans ce dossier, vous pourriez retrouver les différents templates que vous pourriez avoir besoin.
+# Template folder 
+In this folder you can find the different templates you may need.
 
 
-## But et bénéfices des templates
-Ces templates ont pour but de vous expliquer comment réaliser les choses sur ce repository. A l'aide de ceux-ci, vous éviterez de faire des erreurs de syntaxe et de vous conformer aux conventions de ce projet.
+## Purpose and benefits of templates
+The purpose of these templates is to explain how to do things on this repository. Using them, you will avoid making syntax errors and conform to the conventions of this project.
 
-## Les différents templates
+## The different templates
 | Directory        | Purpose                                                                                                       |
 | ---------------- | ------------------------------------------------------------------------------------------------------------- |
-| `pull_request`   | Permet de connaitre les conventions pour faire des pull requests.                                             |
-| `release`        | Permet de connaitre les conventions pour faire une nouvelle release.                                          |
-| `issues`         | Permet d'avoir des conventions sur la manière de déclarer un problème.                                        |
-| `test`           | Permet d'avoir des conventions de création de tests.                                                          |
-| `github_actions` | Permet de savoir comment ajouter de nouvelles GitHub Actions au projet.                                       |
+| `pull_request`   | Allows you to know the conventions for making pull requests.                                                  |
+| `release`        | Find out about the conventions for making a new release.                                                      |
+| `issues`         | Allows you to have conventions on how to declare a problem.                                                   |
+| `test`           | Enables test creation conventions.                                                                            |
+| `github_actions` | Find out how to add new GitHub Actions to the project.                                                        |
 
