@@ -8,7 +8,7 @@
 <!--Briefly describe the changes brought about by this PR. -->
 - What issues does this PR address? 
 - What is the main goal of this contribution?
-- Provide a context or reasoning for these changes : explain why this is necessary and if there is an open issue associated with this, mention it as follows **Closes #<issue_number>** 
+- Provide a context or reasoning for these changes : explain why this is necessary and if there is an open issue associated with this, mention it as follows :  **Closes #<issue_number>** 
 
 ## 🛠️ Changes Made
 <!-- Provide a detailed list of the changes included in this PR. -->
