@@ -12,11 +12,11 @@
 
 ## 🛠️ Changes Made
 <!-- Provide a detailed list of the changes included in this PR. -->
-- [ ] New levels added to the game
-- [ ] Bug fixes (specify which ones)
-- [ ] Performance optimizations
-- [ ] Code refactoring
-- [ ] Other: (please specify)
+- New levels added to the game
+- Bug fixes (specify which ones)
+- Performance optimizations
+- Code refactoring
+- Other: (please specify)
 
 ### 📟 For code changes:
 1. Include tests for any bug fixes or new features.
@@ -24,9 +24,9 @@
 
 ## 🔧 Tests Performed
 <!-- Indicate how the changes were tested. -->
-- [ ] Game tested locally
-- [ ] Unit tests added
-- [ ] Manual tests performed (describe steps)
+- Game tested locally
+- Unit tests added
+- Manual tests performed (describe steps)
 - Expected outcomes: ...
 
 ## 👩‍💻 Developer's Certificate of Origin 1.1
