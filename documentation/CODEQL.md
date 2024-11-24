@@ -14,14 +14,14 @@ The workflow is defined in the file [`.github/workflows/codeql.yml`](.github/wor
   - Analysis during **push** and **pull requests** on the `main` branch.
   - Analysis scheduled every Wednesday at 17:23 UTC (`cron`).
 
-- **Languages analysed** :
+- **Languages analysed**:
   - Java (with option for Kotlin if `build-mode` is configured for this).
   
-- **Runners** :
+- **Runners**:
   - **Ubuntu-latest** for Java and other languages.
   - **MacOS-latest** only if Swift files are added to the project.
 
-- **Permissions** :
+- **Permissions**:
   - The permissions required to access content and write security events are enabled.
 
 ## 📋 **Instructions for the team**
@@ -32,19 +32,19 @@ The workflow is defined in the file [`.github/workflows/codeql.yml`](.github/wor
 2. Select the **CodeQL Advanced** workflow.
 3. Click on **Run workflow** and choose the branch to analyse.
 
-### 2. **Error handling
+### 2. Error handling
 **If the analysis fails** :
 - Check the logs in the **Actions** section of GitHub.
 - **If the ‘Manual Build’ stage fails** :
   - Make sure that the project's dependencies and compilation are correctly configured.
   - Modify the commands in the `codeql-analysis.yml` file to adapt the compilation process.
 
-### 3. Analysis results** 
+### 3. Analysis results
 **Once the workflow has been successfully completed, the results can be consulted** :
 - In the **Security > Code scanning alerts** tab of the repository.
 - Alerts are sorted by severity (low, medium, high).
 
-### 4. **Adding new languages
+### 4. Adding new languages
 **To analyse another language** :
 1. Edit the `codeql-analysis.yml` file.
 2. Add the language to the `matrix.language` matrix.
