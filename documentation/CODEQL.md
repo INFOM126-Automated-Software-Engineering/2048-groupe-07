@@ -27,7 +27,7 @@ The workflow is defined in the file [`.github/workflows/codeql.yml`](.github/wor
 ## 📋 **Instructions for the team**
 
 ### 1. **Manual execution**
-**You can run the workflow manually via the **Actions** tab on GitHub** :
+**You can run the workflow manually via the Actions tab on GitHub** :
 1. Go to the **Actions** tab.
 2. Select the **CodeQL Advanced** workflow.
 3. Click on **Run workflow** and choose the branch to analyse.
@@ -40,12 +40,12 @@ The workflow is defined in the file [`.github/workflows/codeql.yml`](.github/wor
   - Modify the commands in the `codeql-analysis.yml` file to adapt the compilation process.
 
 ### 3. Analysis results
-**Once the workflow has been successfully completed, the results can be consulted** :
+**Once the workflow has been successfully completed, the results can be consulted**:
 - In the **Security > Code scanning alerts** tab of the repository.
 - Alerts are sorted by severity (low, medium, high).
 
 ### 4. Adding new languages
-**To analyse another language** :
+**To analyse another language**:
 1. Edit the `codeql-analysis.yml` file.
 2. Add the language to the `matrix.language` matrix.
 3. Check the build mode for this language.
@@ -61,7 +61,7 @@ matrix:
 ## 🕰️ Scanning schedule
 To change the frequency of scheduled tests :
 1. Modify the schedule section in the YAML file.
-2. Site to check the syntax: https://crontab.guru/
+2. Site to check the syntax: [Crontab guru Site](https://crontab.guru/)
 
 Example for a daily scan at 02:00 UTC:
 ```yaml
