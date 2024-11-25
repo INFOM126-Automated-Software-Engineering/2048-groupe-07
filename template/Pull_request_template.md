@@ -1,7 +1,7 @@
 # 📝 Pull Request Template 
 ## ❗️Before submitting a pull request, please read:
 
-- the CONTRIBUTING guide at @mettre l'adresse 
+- the CONTRIBUTOR guide at @mettre l'adresse 
 - the commit message formatting guidelines at @mettre l'adresse 
 
 ## 📋 Description
