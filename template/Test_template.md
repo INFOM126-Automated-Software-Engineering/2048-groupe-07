@@ -81,13 +81,15 @@ Follow the next structure when writing the test
   }
 ```
 **Arrange**
-*Purpose*: Creates an instance of the GameController class, which is responsible for managing the game's main logic.
-*Why*: Before testing the startGame method, we need an instance to simulate its behaviour.
+- *Purpose*: Creates an instance of the GameController class, which is responsible for managing the game's main logic.
+- *Why*: Before testing the startGame method, we need an instance to simulate its behaviour.
+  
 **Act**
-*Purpose*: Calls the startGame() method
-*Why*: We want to check that the call to startGame() correctly configures all the elements needed to start a new game
+- *Purpose*: Calls the startGame() method
+- *Why*: We want to check that the call to startGame() correctly configures all the elements needed to start a new game
+  
 **Assert**
-*Purpose*: The assertions check whether the expected results correspond to those produced by the startGame() method.
-*Why*: Make sure the game is working properly  
+- *Purpose*: The assertions check whether the expected results correspond to those produced by the startGame() method.
+- *Why*: Make sure the game is working properly  
 
 
