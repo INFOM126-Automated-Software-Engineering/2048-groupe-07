@@ -40,7 +40,17 @@ Example : Consider edge cases, such as when the board is full or when no merges 
 - *Regression Prevention*: Validates that new changes do not break existing functionality.
 
 ### ⚙️ Console Output  
+**What are Console Outputs?** Console outputs are textual information printed to the terminal or console during program execution. They are primarily used for debugging, logging, or verifying intermediate states when running or testing code.
 
+**Tools for Console Output in Java**
+1. System.out.println – The simplest way to print text to the console.
+2. System.err.println – Used for printing error messages or logs to the error stream.
+3. Logging Libraries (e.g., Log4j, SLF4J) – Advanced tools for managing logs systematically across different levels (info, debug, error).
+
+**Utility of Console Outputs**
+- *Debugging*: Provides a quick way to inspect values and track program flow during execution.
+- *Supplementary Information*: Helps when assertions are not sufficient to understand the issue.
+- *Real-Time Feedback*: Useful for monitoring program behavior during runtime, especially for manual testing.
 
 ## 🧾 Test Status
 Mark the status of the test
