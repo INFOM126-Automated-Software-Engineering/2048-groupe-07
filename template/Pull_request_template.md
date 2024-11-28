@@ -1,14 +1,14 @@
-# 📝 Pull Request Template 
-## ❗️Before submitting a pull request, please read:
+# 📝 Pull Request Template
+## ❗️Before submitting a pull request, please read
 
-- the CONTRIBUTOR guide at @mettre l'adresse 
-- the commit message formatting guidelines at @mettre l'adresse 
+- the CONTRIBUTOR guide at @mettre l'adresse
+- the commit message formatting guidelines at @mettre l'adresse
 
 ## 📋 Description
 <!--Briefly describe the changes brought about by this PR. -->
-- What issues does this PR address? 
+- What issues does this PR address?
 - What is the main goal of this contribution?
-- Provide a context or reasoning for these changes : explain why this is necessary and if there is an open issue associated with this, mention it as follows :  **Closes #<issue_number>** 
+- Provide a context or reasoning for these changes : explain why this is necessary and if there is an open issue associated with this, mention it as follows : **Closes #<issue_number>**
 
 ## 🛠️ Changes Made
 <!-- Provide a detailed list of the changes included in this PR. -->
@@ -18,7 +18,7 @@
 - Code refactoring
 - Other: (please specify)
 
-### 📟 For code changes:
+### 📟 For code changes
 1. Include tests for any bug fixes or new features.
 2. Update documentation if it is relevant.
 
@@ -31,7 +31,7 @@
 
 ## 👩‍💻 Developer's Certificate of Origin 1.1
 
-By making a contribution to this project, I certify that:
+By making a contribution to this project, I certify that
 
 (a) The contribution was created in whole or in part by me and I
     have the right to submit it under the open source license
