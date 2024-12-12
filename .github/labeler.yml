@@ -4,15 +4,15 @@ root:
 - changed-files:
   - any-glob-to-any-file: '*'
 
-# Add 'AnyChange' label to any changes within the entire repository
-AnyChange:
+# Add 'anyChange' label to any changes within the entire repository
+anyChange:
 - changed-files:
   - any-glob-to-any-file: '**'
 
-# Add 'Documentation' label to any changes within 'docs' folder or any subfolders
-Documentation:
+# Add 'documentation' label to any changes within 'documentation' folder or any subfolders
+documentation:
 - changed-files:
-  - any-glob-to-any-file: docs/**
+  - any-glob-to-any-file: documentation/**
 
 # Add 'source' label to any change to src files within the source dir EXCEPT for the docs sub-folder
 source:
@@ -21,10 +21,45 @@ source:
     - any-glob-to-any-file: 'src/**/*'
     - all-globs-to-all-files: '!src/docs/*'
 
-# Add 'feature' label to any PR where the head branch name starts with `feature` or has a `feature` section in the name
-feature:
- - head-branch: ['^feature', 'feature']
 
 # Add 'release' label to any PR that is opened against the `main` branch
 release:
  - base-branch: 'main'
+
+# Add 'bug' label to any file where a bug is detected
+bug: 
+ - title: "bug"
+ - body: "bug"
+ - any-commits:
+    - message: "fix bug"
+    - message: "bug"
+
+# Add 'security' label when the code is linked at a security level 
+security: 
+ - title: "security"
+ - body: "security"
+ - any-commits:
+    - message: "security"
+    - message: "security"
+
+# Add 'creation' label when the file does not exist and has just been created 
+creation:
+  - all:
+      - created-files:
+          - any-glob-to-any-file: '**/*'
+
+# Add 'question'
+question: 
+ - title: "question"
+ - body: "question"
+ - any-commits:
+    - message: "question"
+    - message: "question"
+
+# Add 'help' 
+help: 
+ - title: "help"
+ - body: "help"
+ - any-commits:
+    - message: "help"
+    - message: "help"
