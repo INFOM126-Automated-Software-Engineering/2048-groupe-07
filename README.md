@@ -1,5 +1,9 @@
 # 2048
 ## Summary
+2048 is a simple and great game. In this repository, the game is implemented for educational purposes: this repository has been designed to create a pipeline.  
+There are various folders where you can find as much information as possible about this project.
+Enjoy discover it !
+
 ## Rules
 The goal of 2048 is to slide numbered tiles on a grid to combine them and create a tile with the number 2048.
 
