@@ -4,7 +4,6 @@ import java.awt.*;
 
 /**
  * Cette classe permet de configurer les différentes couleurs de l'affichage.
- * 
  */
 
 public class ColorPalette {
