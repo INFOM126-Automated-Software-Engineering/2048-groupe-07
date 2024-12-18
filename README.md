@@ -1,5 +1,5 @@
 # 2048
-## Summary 
+## Summary
 ## Rules
 The goal of 2048 is to slide numbered tiles on a grid to combine them and create a tile with the number 2048.
 
@@ -16,6 +16,6 @@ New Tile Appears:
 
 You win the game if you create a tile with the number 2048.
 The game ends when there are no empty spaces on the grid, and no valid moves are possible.
-     
+
 ## Contributors
 The contributors to this project are Aline Boulanger, Louise Delpierre, Jérome Maquoi.
