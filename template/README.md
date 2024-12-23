@@ -10,7 +10,5 @@ The purpose of these templates is to explain how to do things on this repository
 | ---------------- | ------------------------------------------------------------------------------------------------------------- |
 | `pull_request`   | Allows you to know the conventions for making pull requests.                                                  |
 | `release`        | Find out about the conventions for making a new release.                                                      |
-| `issues`         | Allows you to have conventions on how to declare a problem.                                                   |
 | `test`           | Enables test creation conventions.                                                                            |
 | `github_actions` | Find out how to add new GitHub Actions to the project.                                                        |
-
