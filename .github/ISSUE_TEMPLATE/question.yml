@@ -21,8 +21,8 @@ body:
   - type: dropdown
     id: area
     attributes:
-      label: Concerned area
-      description: 🌍 Which area of the project does your question concern?
+      label: 🌍 Concerned area
+      description: Which area of the project does your question concern?
       options:
         - Installation
         - Usage
