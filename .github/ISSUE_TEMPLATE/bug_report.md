@@ -3,6 +3,7 @@ name: "Issue report 🐛"
 about: "Report a problem with precise details"
 title: "[BUG] Short description of the problem"
 labels: bug
+assignees: ''
 ---
 
 ## 🎯 Characteristics
