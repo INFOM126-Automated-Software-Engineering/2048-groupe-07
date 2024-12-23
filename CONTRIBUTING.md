@@ -1,16 +1,16 @@
 # 👾 Contributing to 2048
-## 🎄Overview 
+## 🎄Overview
 ## 📋 Content
-1. [Code of Conduct]() pas les liens valides
-2. [How to Contribute]()
-   - [Propose an Idea]()
-   - [Fix a Bug]()
-   - [Improve Documentation](#documentation)
-3. [Contribution Workflow]()
-4. [Code Style Guidelines]()
-5. [Running and Testing the Project]()
+<!-- 1. [Code of Conduct]() pas les liens valides -->
+<!-- 2. [How to Contribute]() -->
+   <!-- - [Propose an Idea]() -->
+   <!-- - [Fix a Bug]() -->
+   <!-- - [Improve Documentation](#documentation) -->
+<!-- 3. [Contribution Workflow]() -->
+<!-- 4. [Code Style Guidelines]() -->
+<!-- 5. [Running and Testing the Project]() -->
 ## 🧑‍🤝‍🧑 Code of Conduct
-This project adheres to a [Code of Conduct](). By participating, you agree to uphold a welcoming, inclusive, and respectful environment.
+This project adheres to a Code of Conduct IL FAUT UN LIEN. By participating, you agree to uphold a welcoming, inclusive, and respectful environment.
 
 ## 🚀 How to Contribute
 
