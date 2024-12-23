@@ -1,10 +1,10 @@
 # 2048
-## Summary
+## 📖 Summary
 2048 is a simple and great game. In this repository, the game is implemented for educational purposes: this repository has been designed to create a pipeline.  
 There are various folders where you can find as much information as possible about this project.
 Enjoy discover it !
 
-## Rules
+## 🧑‍🏫 Rules
 The goal of 2048 is to slide numbered tiles on a grid to combine them and create a tile with the number 2048.
 
 Move the Tiles:
@@ -21,5 +21,6 @@ New Tile Appears:
 You win the game if you create a tile with the number 2048.
 The game ends when there are no empty spaces on the grid, and no valid moves are possible.
 
-## Contributors
+## 🧑‍🤝‍🧑 Contributors
 The contributors to this project are Aline Boulanger, Louise Delpierre, Jérome Maquoi.
+The administrators of this project are Aline Boulanger and Louise Delpierre.
