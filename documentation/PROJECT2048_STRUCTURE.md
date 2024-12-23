@@ -15,25 +15,21 @@ This directory containing the source code and tests for the project.
 #### **`src/main/java/be/unamur/game2048`**
 This directory contains the implementation of the game.
 
-- **`controllers/`**:  
+- **`controllers/`**:
   Handles the logic and flow of the game, connecting the model and view components.  
   
 
 - **`helpers`**:
   
 
-- **`model/`**:  
+- **`model/`**:
   Contains the game's data structures and logic.  
   
-- **`view/`**:  
-  Responsible for the user interface (UI) of the game.  
-  
-
-#### **`src/main/resources/`**
-Contains non-code assets such as configuration files, images, or other resources required by the application.  
+- **`view/`**:
+  Responsible for the user interface (UI) of the game.
 
 
-#### **`src/test/java/`**
+#### **`src/test/java/be/unamur/game2048`**
 This directory contains the test cases for the project.
 
 - **`controller/`**: Tests for game logic and user interaction.
