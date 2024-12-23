@@ -73,7 +73,6 @@ other files at the root of the project.
 
 ## 🧩 Additional Notes
 - Any changes to the project structure should be documented in this file to keep it up to date.
-- For detailed setup instructions, refer to the [README.md](README.md).
 
 
 ## 📌 Contribution Guidelines
