@@ -2,10 +2,9 @@
 In this file, you will find the template for adding a Github Action to the 2048 project.
 
 ## ⚠️ Before submitting a new action, please read the following documents
-The contributors' guide : @mettre_l'adresse
+The contributors' guide: @mettre_l'adresse
 
-The overall project documentation : @mettre_l'adresse
-
+The overall project documentation: documentation/PROJECT2048_STRUCTURE.md
 ## 🗨️ 1. Initial discussion
 Before taking any action, open a discussion on GitHub using the Discussions section. In the discussion launched, give the following information in the discussion:
   - Name of the proposed action
@@ -15,13 +14,13 @@ Before taking any action, open a discussion on GitHub using the Discussions sect
 
 Example title: `[Proposal] Add the NAMEACTION action for ...`
 
-## 🔗 2. Creating a new branch 
-After validating the idea in discussions, create a new branch.
+## 🔗 2. Creating a new branch
+After validating the idea in discussions by an administrator, create a new branch.
 
 Naming convention: `Depot_action_NOMACTION`
   - Example: `Depot_action_LinterPython`
 
-If you're using `git`, you need to use this command to create the : 
+If you're using `git`, you need to use this command to create the branch: 
 ```bash
 git checkout -b Depot_action_NOMACTION
 ```
@@ -46,7 +45,7 @@ Clean and clear comments:
 - Use explicit messages for commits.
   - Example using `git` :
       ```bash
-        git commit -m ‘Added NOMACTION action for <description>’
+      git commit -m ‘Added NOMACTION action for <description>’
       ```
 - Push the branch to the remote repository:
   
@@ -71,7 +70,7 @@ Reviewer:
 ## ✅ 7. Review and Validation
 _Review :_
 
-&ensp; Si le reviewer apporte certains commentaires, alors vous devez y répondre et apporter les corrections nécessaires. 
+&ensp; Si le reviewer apporte certains commentaires, alors vous devez y répondre et apporter les corrections nécessaires.
 
 _Validation :_
 
