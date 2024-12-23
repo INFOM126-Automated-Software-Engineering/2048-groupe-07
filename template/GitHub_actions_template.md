@@ -44,15 +44,15 @@ To add documentation:
 Clean and clear comments:
 Use explicit messages for commits.
 - Example using `git` :
-      ```bash
-      git commit -m ‘Added NOMACTION action for <description>’
-      ```
+```bash
+git commit -m ‘Added NOMACTION action for <description>’
+```
 Push the branch to the remote repository:
 
-  Using `git`:
-  ```bash
-  git push origin Depot_action_NOMACTION
-  ```
+Using `git`:
+```bash
+git push origin Depot_action_NOMACTION
+```
 
 ## 📨 6. Pull Request
 Create a Pull Request from the `Depot_action_NOMACTION` branch.
