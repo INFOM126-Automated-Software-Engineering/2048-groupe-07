@@ -38,9 +38,9 @@ The goal is to simplify the information's search for the developers and contribu
 #### **`src/main/java/be/unamur/game2048`**
 "main" contains the implementation of the game.
 
-- **`controllers/`**: handles the logic and flow of the game, gives an overview of movement management, scoring and game state. 
+- **`controllers/`**: handles the logic and flow of the game, gives an overview of movement management, scoring and game state.
 - **`helpers`**: provides utility methods for checking the equality of certain parts of the 2048 game grid. These methods are mainly used to facilitate testing in a clear and concice way.
-- **`model/`**: contains the game's data structures and logic (GameParams, GameState, Grid, Tile). 
+- **`model/`**: contains the game's data structures and logic (GameParams, GameState, Grid, Tile).
 - **`view/`**: responsible for the user interface (UI) of the game (ColorPalette, GamePanel).
 - **`Game.jave`**: this file starts the game by configuring and displaying the graphical interface.
 
