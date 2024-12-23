@@ -6,19 +6,19 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thank you for suggesting an idea to make this 2048 project better.
+        Thank you for suggesting an idea to make this 2048 project better.🎉
 
-        Please fill in as much of the following form as you're able.
+        Please fill in as much of the following form as you are able.
   - type: textarea
     attributes:
-      label: What is the problem this feature will solve?
+      label: ⁉️ What is the problem this feature will solve?
     validations:
       required: true
   - type: textarea
     attributes:
-      label: What is the feature you are proposing to solve the problem?
+      label: 🆕 What is the feature you are proposing to solve the problem?
     validations:
       required: true
   - type: textarea
     attributes:
-      label: What alternatives have you considered?
+      label: ❕ What alternatives have you considered?
