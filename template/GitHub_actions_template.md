@@ -20,7 +20,7 @@ After validating the idea in discussions by an administrator, create a new branc
 Naming convention: `Depot_action_NOMACTION`
   - Example: `Depot_action_LinterPython`
 
-If you're using `git`, you need to use this command to create the branch: 
+If you're using `git`, you need to use this command to create the branch:
 ```bash
 git checkout -b Depot_action_NOMACTION
 ```
@@ -63,7 +63,7 @@ Description:
   - Summarise the purpose of the action.
   - List the changes made (files added/modified).
 
-Reviewer: 
+Reviewer:
 
 &ensp; Assign one or more members to review your additions/changes.
 
