@@ -2,7 +2,7 @@
 In this file, you will find the template for adding a Github Action to the 2048 project.
 
 ## ⚠️ Before submitting a new action, please read the following documents
-The contributors' guide: @mettre_l'adresse
+The contributors' guide: CONTRIBUTING.md
 
 The overall project documentation: documentation/PROJECT2048_STRUCTURE.md
 ## 🗨️ 1. Initial discussion
