@@ -1,4 +1,4 @@
-# Template folder 
+# Template folder
 In this folder you can find the different templates you may need.
 
 
