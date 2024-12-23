@@ -13,14 +13,14 @@ The goal is to simplify the information's search for the developers and contribu
 #### **`.github/workflows`**
 "workflows" contains CI/CD pipeline definitions using GitHub Actions.
 
-- **`codeql.yml`**: codeql is a semantic analysis engine that finds security vulnerabilities in the source code of a repository.  
+- **`codeql.yml`**: codeql is a semantic analysis engine that finds security vulnerabilities in the source code of a repository.
 - **`greetings.yml`**: greeting is a GitHub action that greets new contributors after their first pull request and their first issue.
 - **`labeler.yml`**: labeler automatically labels additions, modifications or removals on new pull requests or issues based on what has been done, the path of modified files or the name of the branch.
 - **`maven.yml`**: maven is a task management tool that allows you to compile, test and deploy code from a repository within your continuous integration pipeline.
 - **`super-linter.yml`**: super-linter is a collection of linters and code analyzers, to help validate,  to detect syntax errors, style problems and potential vulnerabilities and fix your source code.
 
 #### **`.github/labeler.yml`**
-"labeler" contains the various labels that will be assigned
+"labeler" contains the various labels that will be assigned.
 
 
 ### 2.📗 **`documentation`**
@@ -28,7 +28,7 @@ The goal is to simplify the information's search for the developers and contribu
 
 - **`CODEQL.md`**: documentation about the github action codeql.yml, the configuration used.
 - **`DOCKER.MD`**: documentation about docker and how to install it.
-- **`PROJET2048_STRUCTURE.md`**: documentation about the structure of the projet and you are reading it 😉
+- **`PROJET2048_STRUCTURE.md`**: documentation about the structure of the projet and you are reading it 😉.
 - **`README.md`**: This file provides an overview of the repository "documentation".
 
 
@@ -38,16 +38,16 @@ The goal is to simplify the information's search for the developers and contribu
 #### **`src/main/java/be/unamur/game2048`**
 "main" contains the implementation of the game.
 
-- **`controllers/`**: handles the logic and flow of the game, gives an overview of movement management, scoring and game state.  
-- **`helpers`**: provides utility methods for checking the equality of certain parts of the 2048 game grid. These methods are mainly used to facilitate testing in a clear and concice way
-- **`model/`**: contains the game's data structures and logic (GameParams, GameState, Grid, Tile).  
+- **`controllers/`**: handles the logic and flow of the game, gives an overview of movement management, scoring and game state. 
+- **`helpers`**: provides utility methods for checking the equality of certain parts of the 2048 game grid. These methods are mainly used to facilitate testing in a clear and concice way.
+- **`model/`**: contains the game's data structures and logic (GameParams, GameState, Grid, Tile). 
 - **`view/`**: responsible for the user interface (UI) of the game (ColorPalette, GamePanel).
-- **`Game.jave`**: this file starts the game by configuring and displaying the graphical interface 
+- **`Game.jave`**: this file starts the game by configuring and displaying the graphical interface.
 
 #### **`src/test/java/be/unamur/game2048`**
 "test" contains the test cases for the project.
 
-- **`Test2048`**: this file contains all the tests carried out for this project (game 2048). 
+- **`Test2048`**: this file contains all the tests carried out for this project (game 2048).
 
 
 ### 4.📘 **`template`**
@@ -85,4 +85,3 @@ other files at the root of the project.
 For more details on how to build, run, and test the project, refer to:
 - [**README.md**](README.md)
 - [**Contributing Guide**](CONTRIBUTING.md)
-
