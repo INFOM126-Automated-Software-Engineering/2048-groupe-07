@@ -1,70 +1,77 @@
 # 🗂️ Project 2048 structure documentation
 
-
 ## 📖 Overview
 This documentation gives an overview of the structure of the project.
 The goal is to simplify the information's search for the developers and contributors and explain the purpose of each directory and key files.
 
 ## Structure on Github
-
 ## 🖥️ The code
 
-### 1. **`src/`**
+### 1. **`.github/workflows`**
+
+- **`codeql.yml`**:
+  Contains CI/CD pipeline definitions using GitHub Actions.  
+  
+- **`greetings.yml`**:
+  A template for contributors to use when submitting pull requests.
+
+- **`maven.yml`**:
+
+
+
+
+
+### 2. **`documentation`**
+
+- **`CODEQL.md`**:
+  Contains CI/CD pipeline definitions using GitHub Actions.  
+  
+- **`PROJET2048_STRUCTURE.md`**:
+  A template for contributors to use when submitting pull requests.
+
+- **`README.md`**:
+
+
+
+
+### 3. **`src/`**
 This directory containing the source code and tests for the project.
 
 #### **`src/main/java/be/unamur/game2048`**
 This directory contains the implementation of the game.
-
 - **`controllers/`**:
   Handles the logic and flow of the game, connecting the model and view components.  
-  
-
 - **`helpers`**:
-  
-
 - **`model/`**:
   Contains the game's data structures and logic.  
-  
 - **`view/`**:
   Responsible for the user interface (UI) of the game.
 
-
 #### **`src/test/java/be/unamur/game2048`**
 This directory contains the test cases for the project.
+- **`Test2048`**: 
 
-- **`controller/`**: Tests for game logic and user interaction.
-- **`model/`**: Tests for core data structures like `Grid` and `Tile`.
-- **`view/`**: Tests for UI components and their behavior.
 
----
 
-### 2. **`.github/`**
+
+### 4. **`template`**
 Contains GitHub-specific files and configurations.
+- **`Pull_request_template.md`**:  
 
-- **`workflows/`**:  
-  Contains CI/CD pipeline definitions using GitHub Actions.  
-  Example: Automatically run tests or build the project when a pull request is opened.
+- **`README.md`**:
+- **`Release_template.md`**:
 
-- **`PULL_REQUEST_TEMPLATE.md`**:  
-  A template for contributors to use when submitting pull requests.
 
----
 
-### 3. **`README.md`**
-The main documentation file that provides an overview of the project, including how to install, build, and run the game.
 
----
-
-### 4. **`build.gradle`**
-The configuration file for the Gradle build system.  
-Specifies project dependencies, build tasks, and other settings.
-
----
 
 ### 5. Other Files
+- **`gitattributes`**:
 - **`.gitignore`**: Specifies which files and directories should not be tracked by Git.
-- **`settings.gradle`**: Contains additional Gradle configuration.
 - **`LICENSE`**: (if applicable) Defines the terms under which the project can be used and contributed to.
+- **`README.md`**:
+- **`pom.xml`**: 
+
 
 ---
 
