@@ -3,6 +3,7 @@ In this file, you will find the template for adding a Github Action to the 2048 
 
 ## ⚠️ Before submitting a new action, please read the following documents
 The contributors' guide : @mettre_l'adresse
+
 The overall project documentation : @mettre_l'adresse
 
 ## 🗨️ 1. Initial discussion
@@ -40,7 +41,7 @@ To add documentation:
   - Describe the GitHub action
   - Include an example of how to use the action.
 
-## 📩 5. Commit and Push
+## 📤 5. Commit and Push
 Clean and clear comments:
 - Use explicit messages for commits.
   - Example using `git` :
@@ -53,4 +54,29 @@ Clean and clear comments:
     ```bash
     git push origin Depot_action_NOMACTION
     ```
-  
+
+## 📨 6. Pull Request
+Create a Pull Request from the `Depot_action_NOMACTION` branch.
+
+PR Title: `[Add] New GitHub Action: NOMACTION`.
+
+Description:
+  - Summarise the purpose of the action.
+  - List the changes made (files added/modified).
+
+Reviewer: 
+
+&ensp; Assign one or more members to review your additions/changes.
+
+## ✅ 7. Review and Validation
+_Review :_
+
+&ensp; Si le reviewer apporte certains commentaires, alors vous devez y répondre et apporter les corrections nécessaires. 
+
+_Validation :_
+
+&ensp; Une fois vos changements validés (par le reviewer et par les autres GitHub action du projet), la branche peut être fusionnée dans main.
+
+
+
+
