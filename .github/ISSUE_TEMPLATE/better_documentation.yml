@@ -13,7 +13,7 @@ body:
   - type: textarea
     id: current_situation
     attributes:
-      label: :mag: Situation actuelle
+      label: 🔍 Situation actuelle
       description: Décrivez le problème ou l'imprécision dans la documentation actuelle.
       placeholder: La documentation actuelle mentionne X, mais elle devrait mentionner Y car...
     validations:
@@ -40,7 +40,7 @@ body:
   - type: dropdown
     id: type_of_change
     attributes:
-      label: :hourglass: Type de modification
+      label: ⌛ Type de modification
       description: Quel type de modification proposez-vous ?
       options:
         - Correction d'une erreur
