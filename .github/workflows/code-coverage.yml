@@ -1,0 +1,45 @@
+name: Java Code Coverage with JaCoCo
+
+on:
+  pull_request:
+    branches:
+      - main
+  push:
+    branches:
+      - main
+
+jobs:
+  coverage:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. Checkout the code
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      # 2. Set up Java
+      - name: Set up Java
+        uses: actions/setup-java@v3
+        with:
+          distribution: 'temurin' # Java distribution (AdoptOpenJDK)
+          java-version: '17'      # Version de Java à utiliser
+
+      # 3. Cache dependencies for Maven
+      - name: Cache Maven dependencies
+        uses: actions/cache@v3
+        with:
+          path: ~/.m2
+          key: ${{ runner.os }}-maven-${{ hashFiles('**/pom.xml') }}
+          restore-keys: |
+            ${{ runner.os }}-maven-
+
+      # 4. Build the project and run tests with coverage
+      - name: Build and test with JaCoCo
+        run: mvn clean verify
+
+      # 5. Upload JaCoCo report as an artifact
+      - name: Upload coverage report
+        uses: actions/upload-artifact@v3
+        with:
+          name: jacoco-report
+          path: target/site/jacoco/
