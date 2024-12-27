@@ -16,7 +16,7 @@ jobs:
       uses: actions/github-script@v6
       with:
         script: |
-          const { context, github } = require("@actions/github");
+          const github = require("@actions/github");
 
           const currentPR = context.payload.pull_request;
           const owner = context.repo.owner;
