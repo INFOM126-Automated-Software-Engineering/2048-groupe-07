@@ -13,7 +13,7 @@ body:
   - type: textarea
     id: current_situation
     attributes:
-      label: Situation actuelle
+      label: :mag: Situation actuelle
       description: Décrivez le problème ou l'imprécision dans la documentation actuelle.
       placeholder: La documentation actuelle mentionne X, mais elle devrait mentionner Y car...
     validations:
@@ -22,7 +22,7 @@ body:
   - type: textarea
     id: proposed_solution
     attributes:
-      label: Solution proposée
+      label: ❕ Solution proposée
       description: Décrivez la modification que vous proposez d'apporter à la documentation.
       placeholder: Je propose de remplacer X par Y, ou d'ajouter une section sur Z.
     validations:
@@ -31,7 +31,7 @@ body:
   - type: textarea
     id: location
     attributes:
-      label: Emplacement dans la documentation
+      label: 📕 Emplacement dans la documentation
       description: Indiquez précisément où se trouve la section concernée dans la documentation (URL, titre de la page, etc.).
       placeholder: "Page \"Comment installer\", section \"Configuration avancée\", ou URL : https://example.com/docs/installation"
     validations:
@@ -40,7 +40,7 @@ body:
   - type: dropdown
     id: type_of_change
     attributes:
-      label: Type de modification
+      label: :hourglass: Type de modification
       description: Quel type de modification proposez-vous ?
       options:
         - Correction d'une erreur
@@ -53,6 +53,6 @@ body:
   - type: textarea
     id: additional_context
     attributes:
-      label: Contexte additionnel (optionnel)
+      label: ➕ Contexte additionnel (optionnel)
       description: Toute information supplémentaire qui pourrait être utile.
       placeholder: Par exemple, des captures d'écran, des liens vers des discussions, etc.
