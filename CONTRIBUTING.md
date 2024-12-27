@@ -1,16 +1,20 @@
 # 👾 Contributing to 2048
 ## 🎄Overview
+Contributions to 2048 project include code, documentation, answering user questions, running the project's infrastructure.
+
+The 2048 project welcomes all contributions from anyone willing to work in good faith with other contributors and the community. No contribution is too small and all contributions are valued.
+
 ## 📋 Content
-<!-- 1. [Code of Conduct]() pas les liens valides -->
-<!-- 2. [How to Contribute]() -->
-   <!-- - [Propose an Idea]() -->
-   <!-- - [Fix a Bug]() -->
-   <!-- - [Improve Documentation](#documentation) -->
-<!-- 3. [Contribution Workflow]() -->
+1. [Code of Conduct](https://github.com/INFOM126-Automated-Software-Engineering/2048-groupe-07/blob/main/CODE_OF_CONDUCT.md)
+2. How to Contribute
+   - [Propose an Idea](https://github.com/INFOM126-Automated-Software-Engineering/2048-groupe-07/blob/main/template/Release_template.md)
+   - [Fix a Bug](https://github.com/INFOM126-Automated-Software-Engineering/2048-groupe-07/tree/main/.github/ISSUE_TEMPLATE)
+   - [Improve Documentation](https://github.com/INFOM126-Automated-Software-Engineering/2048-groupe-07/tree/main/documentation)
+3. Contribution Workflow
 <!-- 4. [Code Style Guidelines]() -->
 <!-- 5. [Running and Testing the Project]() -->
 ## 🧑‍🤝‍🧑 Code of Conduct
-This project adheres to a Code of Conduct IL FAUT UN LIEN. By participating, you agree to uphold a welcoming, inclusive, and respectful environment.
+This project adheres to a [Code of Conduct](https://github.com/INFOM126-Automated-Software-Engineering/2048-groupe-07/blob/main/CODE_OF_CONDUCT.md). By participating, you agree to uphold a welcoming, inclusive, and respectful environment.
 
 ## 🚀 How to Contribute
 
