@@ -1,37 +1,25 @@
----
-name: Apply "invalid" label for failed checks
-
 on:
-  check_suite:
-    types: [completed]
+  pull_request:
+    types: [synchronize, opened, reopened]
 
 jobs:
-  label-invalid:
+  check-results:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Check if checks failed
+      - name: Fetch check runs
         uses: actions/github-script@v6
         with:
           script: |
             const owner = context.repo.owner;
             const repo = context.repo.repo;
-            const checkSuite = context.payload.check_suite;
-
-            // Only process pull requests
-            const pullRequest = checkSuite.pull_requests[0];
-            if (!pullRequest) {
-              console.log("No pull request found. Skipping...");
-              return;
-            }
-
-            const prNumber = pullRequest.number;
+            const prNumber = context.payload.pull_request.number;
 
             // Fetch all checks for this pull request
-            const { data: checkRuns } = await github.rest.checks.listForSuite({
+            const { data: checkRuns } = await github.rest.checks.listForRef({
               owner,
               repo,
-              check_suite_id: checkSuite.id,
+              ref: context.payload.pull_request.head.sha,
             });
 
             // Check if any of the checks failed
