@@ -1,4 +1,5 @@
 # 🛡️ Configuring and using CodeQL in this Project
+## 🎄Overview
 
 This document explains how the **CodeQL** workflow is configured for this repository, how it works and how to maintain or modify it !
 
