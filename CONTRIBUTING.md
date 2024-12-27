@@ -1,12 +1,16 @@
 # 👾 Contributing to 2048
 ## 🎄Overview
+Contributions to 2048 project include code, documentation, answering user questions, running the project's infrastructure.
+
+The 2048 project welcomes all contributions from anyone willing to work in good faith with other contributors and the community. No contribution is too small and all contributions are valued.
+
 ## 📋 Content
 <!-- 1. [Code of Conduct]() pas les liens valides -->
-<!-- 2. [How to Contribute]() -->
-   <!-- - [Propose an Idea]() -->
-   <!-- - [Fix a Bug]() -->
-   <!-- - [Improve Documentation](#documentation) -->
-<!-- 3. [Contribution Workflow]() -->
+2. How to Contribute
+   - Propose an Idea
+   - Fix a Bug
+   - Improve Documentation
+3. Contribution Workflow
 <!-- 4. [Code Style Guidelines]() -->
 <!-- 5. [Running and Testing the Project]() -->
 ## 🧑‍🤝‍🧑 Code of Conduct
