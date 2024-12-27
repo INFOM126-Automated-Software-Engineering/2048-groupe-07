@@ -1,10 +1,10 @@
 # Detect Duplicate Pull Requests
 
 ## 🎄 Overview
-This document explains the GitHub Custom Action Duplicate
+This document explains the GitHub Custom Action Duplicate.
 
 ## 📖 What is Duplicate?
-This GitHub Action automatically detects duplicate Pull Requests (PRs) in the repository. If a PR with the same title as an already open PR is found, it adds a duplicate label to the new PR. 
+This GitHub Action automatically detects duplicate Pull Requests (PRs) in the repository. If a PR with the same title as an already open PR is found, it adds a duplicate label to the new PR.
 
 ## 🎯 Objective
 Duplicate helps to avoid duplicates and maintain the quality of contributions.
