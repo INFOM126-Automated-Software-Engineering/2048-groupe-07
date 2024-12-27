@@ -2,7 +2,7 @@
 ## ❗️Before submitting a pull request, please read
 
 - the CONTRIBUTOR guide at [Contributing](https://github.com/INFOM126-Automated-Software-Engineering/2048-groupe-07/blob/main/CONTRIBUTING.md)
-- the commit message formatting guidelines at @mettre l'adresse
+- the release message or commit formatting guidelines at [Realease_Template](https://github.com/INFOM126-Automated-Software-Engineering/2048-groupe-07/blob/main/template/Release_template.md)
 
 ## 📋 Description
 <!--Briefly describe the changes brought about by this PR. -->
