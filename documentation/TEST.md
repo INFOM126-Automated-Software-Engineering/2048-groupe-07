@@ -5,8 +5,7 @@ This documentation provides an overview of the testing process for the 2048 proj
 ## 🧐 What is a test
 A test is a automated programm that check if the code does what it expect do to.\
 \
-The tests in the 2048 Java project verifies the functionality of specific components, such as the GameController, Grid, or game mechanics. Tests are written using Java's testing framework (e.g., JUnit) to ensure the code 
-behaves as expected under different scenarios.
+The tests in the 2048 Java project verifies the functionality of specific components, such as the GameController,Grid, or game mechanics. Tests are written using Java's testing framework (e.g., JUnit) to ensure the code behaves as expected under different scenarios.
 
 ## 🚀 Why Are Tests Important?
 
