@@ -1,4 +1,5 @@
-# 🎮 Project 2048 - Docker
+# 🎮 Projet 2048 - Docker
+## 🎄 Overview
 
 This guide explains how to run this project using **Docker**.
 

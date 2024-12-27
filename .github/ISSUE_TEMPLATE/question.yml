@@ -1,0 +1,39 @@
+name: Question ❔
+description: Ask a question about the project
+title: "[QUESTION] - "
+labels: [question]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for asking your question! Before proceeding, please check if your question has already been asked or if an answer already exists in the [documentation](https://github.com/INFOM126-Automated-Software-Engineering/2048-groupe-07/blob/main/documentation/PROJECT2048_STRUCTURE.md), the [closed issues](https://github.com/INFOM126-Automated-Software-Engineering/2048-groupe-07/issues?q=is%3Aissue+is%3Aclosed) or the [discussions](https://github.com/INFOM126-Automated-Software-Engineering/2048-groupe-07/discussions).👀
+
+  - type: textarea
+    id: question
+    attributes:
+      label: ❓ Your question
+      description: Please describe your question clearly and concisely.
+      placeholder: I'm wondering how...
+    validations:
+      required: true
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: 🌍 Concerned area
+      description: Which area of the project does your question concern?
+      options:
+        - Installation
+        - Usage
+        - Development
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: ➕ Additional context (optional)
+      description: Any additional context that might help understand your question.
+      placeholder: For example, the software version you are using, your operating system, etc.

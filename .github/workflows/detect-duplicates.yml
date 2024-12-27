@@ -1,0 +1,51 @@
+name: Detect Duplicate Pull Requests
+
+on:
+  pull_request:
+    types: [opened, synchronize]
+
+jobs:
+  detect-duplicates:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Find Duplicate Pull Requests
+      uses: actions/github-script@v6
+      with:
+        script: |
+          const currentPR = context.payload.pull_request;
+          const owner = context.repo.owner;
+          const repo = context.repo.repo;
+
+          // Fetch all open PRs in the repository
+          const { data: pullRequests } = await github.rest.pulls.list({
+            owner,
+            repo,
+            state: "open"
+          });
+
+          // Check if a similar PR already exists
+          let isDuplicate = false;
+          for (const pr of pullRequests) {
+            if (pr.number !== currentPR.number && pr.title === currentPR.title) {
+              isDuplicate = true;
+              break;
+            }
+          }
+
+          if (isDuplicate) {
+            // Add the "duplicate" label
+            await github.rest.issues.addLabels({
+              owner,
+              repo,
+              issue_number: currentPR.number,
+              labels: ["duplicate"]
+            });
+
+            console.log(`PR #${currentPR.number} is a duplicate.`);
+          } else {
+            console.log(`No duplicate found for PR #${currentPR.number}.`);
+          }
