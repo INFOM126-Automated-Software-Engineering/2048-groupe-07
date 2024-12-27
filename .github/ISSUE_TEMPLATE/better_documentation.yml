@@ -1,0 +1,58 @@
+name: Amélioration de la documentation
+description: Suggérer une amélioration ou une correction de la documentation.
+title: "[DOC] - Brève description de l'amélioration"
+labels: [documentation, enhancement]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Merci de vouloir améliorer la documentation !
+
+        Veuillez suivre les étapes ci-dessous pour nous aider à comprendre votre proposition.
+
+  - type: textarea
+    id: current_situation
+    attributes:
+      label: Situation actuelle
+      description: Décrivez le problème ou l'imprécision dans la documentation actuelle.
+      placeholder: La documentation actuelle mentionne X, mais elle devrait mentionner Y car...
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposed_solution
+    attributes:
+      label: Solution proposée
+      description: Décrivez la modification que vous proposez d'apporter à la documentation.
+      placeholder: Je propose de remplacer X par Y, ou d'ajouter une section sur Z.
+    validations:
+      required: true
+
+  - type: textarea
+    id: location
+    attributes:
+      label: Emplacement dans la documentation
+      description: Indiquez précisément où se trouve la section concernée dans la documentation (URL, titre de la page, etc.).
+      placeholder: Page "Comment installer", section "Configuration avancée", ou URL : https://example.com/docs/installation
+    validations:
+      required: true
+
+  - type: dropdown
+    id: type_of_change
+    attributes:
+      label: Type de modification
+      description: Quel type de modification proposez-vous ?
+      options:
+        - Correction d'une erreur
+        - Amélioration/Clarification
+        - Ajout d'une nouvelle section
+        - Autre
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional_context
+    attributes:
+      label: Contexte additionnel (optionnel)
+      description: Toute information supplémentaire qui pourrait être utile.
+      placeholder: Par exemple, des captures d'écran, des liens vers des discussions, etc.
