@@ -1,6 +1,6 @@
 # 🗂️ Project 2048 structure documentation
 
-## 📖 Overview
+## 🎄 Overview
 This documentation gives an overview of the structure of the project.
 The goal is to simplify the information's search for the developers and contributors and explain the purpose of each directory and key files.
 
