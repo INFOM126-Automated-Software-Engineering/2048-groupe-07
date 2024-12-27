@@ -33,7 +33,7 @@ body:
     attributes:
       label: Emplacement dans la documentation
       description: Indiquez précisément où se trouve la section concernée dans la documentation (URL, titre de la page, etc.).
-      placeholder: Page "Comment installer", section "Configuration avancée", ou URL : https://example.com/docs/installation
+      placeholder: "Page \"Comment installer\", section \"Configuration avancée\", ou URL : https://example.com/docs/installation"
     validations:
       required: true
 
