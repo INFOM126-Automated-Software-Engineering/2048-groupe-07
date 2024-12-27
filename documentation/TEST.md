@@ -16,4 +16,4 @@ behaves as expected under different scenarios.
 - **Encourage Collaboration**: A well-tested codebase is easier for new contributors to understand and modify.
 
 ## ⚒️ How to make a test
-In the ‘Template’ repository, there is a template that explains how to write a test in this project. It can be found at this link [Test_template]([templatetest](https://github.com/INFOM126-Automated-Software-Engineering/2048-groupe-07/blob/main/template/Test_template.md)).
+In the ‘Template’ repository, there is a template that explains how to write a test in this project. It can be found at this link [Test_template](https://github.com/INFOM126-Automated-Software-Engineering/2048-groupe-07/blob/main/template/Test_template.md).
