@@ -7,9 +7,9 @@ The 2048 project welcomes all contributions from anyone willing to work in good 
 ## 📋 Content
 1. [Code of Conduct](https://github.com/INFOM126-Automated-Software-Engineering/2048-groupe-07/blob/main/CODE_OF_CONDUCT.md)
 2. How to Contribute
-   - Propose an Idea
-   - Fix a Bug
-   - Improve Documentation
+   - [Propose an Idea](https://github.com/INFOM126-Automated-Software-Engineering/2048-groupe-07/blob/main/template/Release_template.md)
+   - [Fix a Bug](https://github.com/INFOM126-Automated-Software-Engineering/2048-groupe-07/tree/main/.github/ISSUE_TEMPLATE)
+   - [Improve Documentation](https://github.com/INFOM126-Automated-Software-Engineering/2048-groupe-07/tree/main/documentation)
 3. Contribution Workflow
 <!-- 4. [Code Style Guidelines]() -->
 <!-- 5. [Running and Testing the Project]() -->
