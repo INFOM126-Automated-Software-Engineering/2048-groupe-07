@@ -1,46 +1,47 @@
 # 🎮 Projet 2048 - Docker
 ## 🎄 Overview
 
-Ce guide explique comment exécuter ce projet en utilisant **Docker**.
+This guide explains how to run this project using **Docker**.
 
-## 🚀 **Prérequis**
+## 🚀 **Requisites**
 
-Avant de commencer, assurez-vous d'avoir les éléments suivants installés :
+Before you start, make sure you have the following installed:
 
-1. **Git** : Pour cloner le projet.
-   - [Télécharger Git](https://git-scm.com/)
-2. **Docker** : Pour construire et exécuter le conteneur.
-   - [Télécharger Docker](https://www.docker.com/get-started)
+1. **Git** : To clone the project.
+   - [Download Git](https://git-scm.com/)
+2. **Docker**: To build and run the container.
+   - [Download Docker](https://www.docker.com/get-started)
 
-## 📥 **Étape 1 : Cloner le projet**
+## 📥 **Step 1 : Clone the project**
 
-Commencez par cloner ce dépôt en local :
+Start by cloning this repository locally:
 
 ```bash
 git clone https://github.com/INFOM126-Automated-Software-Engineering/2048-groupe-07.git
 cd 2048-groupe-07
 ```
 
-## 🧱 Étape 2 : Construire l'image Docker
-À la racine du projet, exécutez la commande suivante pour construire l'image Docker :
+## 🧱 Step 2: Build the Docker image
+At the root of the project, run the following command to build the Docker image:
 
-`docker build -t 2048-groupe07` où `-t 2048-groupe07` permet de donner un nom à l'image Docker.
+`docker build -t 2048-group07` where `-t 2048-group07` is used to name the Docker image.
 
-## ▶️ Étape 3 : Lancer le conteneur
-Une fois l'image construite, démarrez un conteneur avec la commande suivante :
+## ▶️ Step 3: Launch the container
+Once the image has been built, start a container with the following command:
 
-`docker run -p 3000:3000 2048-groupe07` où `-p 3000:3000` lie le port 3000 du conteneur au port 3000 de votre machine locale.
+`docker run -p 3000:3000 2048-group07` where `-p 3000:3000` links port 3000 on the container to port 3000 on your local machine.
 
-## 🌐 Étape 4 : Accéder à l'application
-Ouvrez votre navigateur et rendez-vous sur :
+## 🌐 Step 4: Access the application
 
-`http://localhost:3000` où l'application est désormais accessible.
+Open your browser and go to :
 
-## 🛑 Étape 5 : Arrêter le conteneur
-Pour arrêter le conteneur, utilisez la combinaison de touches : `CTRL + C`
+`http://localhost:3000` where the application is now accessible.
 
-Si le conteneur fonctionne en arrière-plan, vous pouvez utiliser la commande suivante pour l'arrêter :
+### 🛑 Step 5: Stop the container
+To stop the container, use the key combination: `CTRL + C`.
+
+If the container is running in the background, you can use the following command to stop it:
 ```bash
-docker ps        # Affiche les conteneurs en cours d'exécution
+docker ps # Displays running containers
 docker stop <CONTAINER_ID>
 ```
