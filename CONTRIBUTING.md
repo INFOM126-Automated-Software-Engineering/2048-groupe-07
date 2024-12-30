@@ -5,10 +5,10 @@ Contributions to 2048 project include code, documentation, answering user questi
 The 2048 project welcomes all contributions from anyone willing to work in good faith with other contributors and the community. No contribution is too small and all contributions are valued.
 
 ## 📋 Content
-1. [Code of Conduct](https://github.com/INFOM126-Automated-Software-Engineering/2048-groupe-07/blob/main/CODE_OF_CONDUCT.md)
+1. Code of Conduct
 2. How to Contribute
-   - [Propose an Idea](https://github.com/INFOM126-Automated-Software-Engineering/2048-groupe-07/tree/main/.github/ISSUE_TEMPLATE)
-   - [Fix a Bug](https://github.com/INFOM126-Automated-Software-Engineering/2048-groupe-07/tree/main/.github/ISSUE_TEMPLATE)
+   - Propose an Idea
+   - Fix a Bug
    - Improve Documentation
 3. Contribution Workflow
 4. Pull Request 
