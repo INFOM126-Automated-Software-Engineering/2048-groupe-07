@@ -54,10 +54,16 @@ A pull request allows a developer to notify members of their team that they have
 It also allows finished functionality to be put on the main repository.
 
 ### 🖊️ Reviewing pull requests
-All contributors who choose to review and provide feedback on Pull Requests have a responsibility to both the project and the individual making the contribution. Reviews and feedback must be helpful, insightful, and geared towards improving the contribution as opposed to simply blocking it. Do not expect to be able to block a pull request from advancing simply because you say "No" without giving an explanation. Be open to having your mind changed. Be open to working with the contributor to make the pull request better.
+All contributors who choose to review and provide feedback on Pull Requests have a responsibility to both the project
+and the individual making the contribution.
+Reviews and feedback must be helpful, insightful, and geared towards improving the contribution as opposed to simply blocking it.
+Do not expect to be able to block a pull request from advancing simply because you say "No" without giving an explanation.
+Be open to having your mind changed. Be open to working with the contributor to make the pull request better.
 
 Reviews that are dismissive or disrespectful of the contributor or any other reviewers are strictly counter to the Code of Conduct.
-When reviewing a pull request, the primary goals are for the codebase to improve and for the person submitting the request to succeed. Even if a pull request does not land, the submitters should come away from the experience feeling like their effort was not wasted or unappreciated. Every pull request from a new contributor is an opportunity to grow the community. Review a bit at a time. Do not overwhelm new contributors.
+When reviewing a pull request, the primary goals are for the codebase to improve and for the person submitting the request to succeed.
+Even if a pull request does not land, the submitters should come away from the experience feeling like their effort was not wasted or unappreciated.
+Every pull request from a new contributor is an opportunity to grow the community. Review a bit at a time. Do not overwhelm new contributors.
 
 It is tempting to micro-optimize and make everything about relative performance, perfect grammar, or exact style matches. Do not succumb to that temptation.
 
@@ -70,11 +76,14 @@ Focus first on the most significant aspects of the change:
 
 When changes are necessary, request them, do not demand them, and do not assume that the submitter already knows how to add a test or run a benchmark.
 Specific performance optimization techniques, coding styles, and conventions change over time. The first impression you give to a new contributor never does.
-If your comments were addressed but were not folded automatically after new commits or if they proved to be mistaken, please, hide them with the appropriate reason to keep the conversation flow concise and relevant.
+If your comments were addressed but were not folded automatically after new commits or if they proved to be mistaken, please,
+hide them with the appropriate reason to keep the conversation flow concise and relevant.
 Be aware of the person behind the code.
 
-Your comments were addressed but were not folded automatically after new commits or if they proved to be mistaken, please, hide them with the appropriate reason to keep the conversation flow concise and relevant.
-Be aware of the person behind the codeIf a pull request appears to be abandoned or stalled, it is polite to first check with the contributor to see if they intend to continue the work before checking if they would mind if you took it over. When doing so, it is courteous to give the original contributor credit for the work they started in the commit log, or by using an Author: meta-data tag in the commit.
+If a pull request appears to be abandoned or stalled, it is polite to first check with the contributor to see
+if they intend to continue the work before checking if they would mind if you took it over.
+When doing so, it is courteous to give the original contributor credit for the work they started in the commit log,
+or by using an Author: meta-data tag in the commit.
 Approving a change.
 
 Any administrator is authorized to approve any other contributor's work. Collaborators are not permitted to approve their own pull requests.
@@ -84,8 +93,10 @@ When explicitly using the "Changes requested" component of the GitHub Approval W
 That is, do not be rude or abrupt with your feedback and offer concrete suggestions for improvement, if possible. If you're not sure how a particular change can be improved, say so.
 Most importantly, after leaving such requests, it is courteous to make yourself available later to check whether your comments have been addressed.
 If you see that requested changes have been made, you can clear another collaborator's Changes requested review.
-Change requests that are vague, dismissive, or unconstructive may also be dismissed if requests for greater clarification go unanswered within a reasonable period of time.
-Use Changes requested to block a pull request from landing. When doing so, explain why you believe the pull request should not land along with an explanation of what may be an acceptable alternative course, if any.
+Change requests that are vague, dismissive, or unconstructive may also be dismissed
+if requests for greater clarification go unanswered within a reasonable period of time.
+Use Changes requested to block a pull request from landing.
+When doing so, explain why you believe the pull request should not land along with an explanation of what may be an acceptable alternative course, if any.
 Accept that there are different opinions.
 
 Also, functionality that either cannot be implemented outside of core in any reasonable way, or only with significant pain.
@@ -101,12 +112,20 @@ Be explicit in your feedback.
 Continuous integration testing.
 
 ### 🏷️ Labeler
-The automatics labels are "Bug", "creation", "documentation", "release", "root", "source", "update", "question", "security", "help". Some of the labels are not automatics so you have to put yourself the labels like "invalid", "AnyChange", ...
-The label "root" and "update" are made when a file change. The "documentation" label is added when a documentation file is modified. The label "source" is added when the change is made on the repository "scr" or "src/doc". The label "release" is added when there is a pull request made. The "bug" label is added when a bug is detected. The "security" label is added when the code is link to a security aspect. The label "creation" is added when the file is created. The labels "question" and "help" are added when the contributor has a question or need help.
+The automatics labels are "Bug", "creation", "documentation", "release", "root", "source", "update", "question", "security", "help".
+Some of the labels are not automatics so you have to put yourself the labels like "invalid", "AnyChange", ...
+The label "root" and "update" are made when a file change.
+The "documentation" label is added when a documentation file is modified.
+The label "source" is added when the change is made on the repository "scr" or "src/doc".
+The label "release" is added when there is a pull request made. The "bug" label is added when a bug is detected.
+The "security" label is added when the code is link to a security aspect.
+The label "creation" is added when the file is created.
+The labels "question" and "help" are added when the contributor has a question or need help.
 ### 📁 Repositories
 The **.gitHub** repository contains the workflow where the github action are but also the issue template.
 The **documentation** repository contains all the documentation necessary to understand the project.
 The **src** repository contains the code of the project and tests.
 The **template** repository contains all the templates to ensure consistency throughout the project.
-Then there are all the files automatically generate. There is the **code of conduct** which is described above in this file. There is also the kind of **licence** which is used on this project.
+Then there are all the files automatically generate. There is the **code of conduct** which is described above in this file.
+There is also the kind of **licence** which is used on this project.
 The goal of this project is explained in the **ReadMe** and finally there is the pom.xml file.
