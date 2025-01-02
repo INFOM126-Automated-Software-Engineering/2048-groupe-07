@@ -11,7 +11,7 @@ The 2048 project welcomes all contributions from anyone willing to work in good 
    - Fix a Bug
    - Improve Documentation
 3. Contribution Workflow
-4. Pull Request 
+4. Pull Request
 ## 🧑‍🤝‍🧑 Code of Conduct
 This project adheres to a [Code of Conduct](https://github.com/INFOM126-Automated-Software-Engineering/2048-groupe-07/blob/main/CODE_OF_CONDUCT.md). By participating, you agree to uphold a welcoming, inclusive, and respectful environment.
 
@@ -36,12 +36,12 @@ This project adheres to a [Code of Conduct](https://github.com/INFOM126-Automate
 
 ## 🔄 Contribution Workflow
 1. Fork the Repository : Click the "Fork" button at the top of this page.
-2. Clone Your Fork
-3. Create a New Branch
+2. Clone Your Fork.
+3. Create a New Branch.
 4. Make Changes: Edit the code or documentation as needed.
-5. Commit your changes
-6. Push Your Branch
-7. Create a Pull Request (PR)
+5. Commit your changes.
+6. Push Your Branch.
+7. Create a Pull Request (PR).
 
 ## 📝 Pull Resquest
 To make a Pull Request, there is a template [Pull_request_template](https://github.com/INFOM126-Automated-Software-Engineering/2048-groupe-07/blob/main/template/Pull_request_template.md), follow the steps described.
