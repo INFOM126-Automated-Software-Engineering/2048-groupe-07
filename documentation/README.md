@@ -14,6 +14,7 @@ Here's an overview of the files and subfolders you can find here:
 - **`LABELER.md`**: Explains what this workflow consists of, the different labels and how to add them.
 - **`DETECT_DUPLICATE`**: Explains the GitHub Custom Action Duplicate.
 - **`INVALID_LABELER`**: Explains the GitHub Custom Action Invalid.
+- **`COVERAGE.md`**: Explains the GitHub Custom Action Coverage.
 
 ## 🚀 How do I use this file?
 1. **Developers**: Consult the files to understand the architecture, read the [project structural documentation](https://github.com/INFOM126-Automated-Software-Engineering/2048-groupe-07/blob/main/documentation/PROJECT2048_STRUCTURE.md) and follow good development practices.
