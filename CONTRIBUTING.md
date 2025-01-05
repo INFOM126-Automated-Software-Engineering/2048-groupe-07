@@ -23,6 +23,7 @@ This project adheres to a [Code of Conduct](https://github.com/INFOM126-Automate
   - The problem your feature solves.
   - How it could be implemented.
 - Follow the template [feature_request](https://github.com/INFOM126-Automated-Software-Engineering/2048-groupe-07/blob/main/.github/ISSUE_TEMPLATE/feature_request.yml)
+- A new feature can be proposed via the **discussions** and must be validated by an administrator before being inserted into the project.
 
 ### Fix a Bug
 - Check if the bug is already reported in the **Issues** tab.
@@ -121,6 +122,7 @@ The label "release" is added when there is a pull request made. The "bug" label 
 The "security" label is added when the code is link to a security aspect.
 The label "creation" is added when the file is created.
 The labels "question" and "help" are added when the contributor has a question or need help.
+
 ### 📁 Repositories
 The **.gitHub** repository contains the workflow where the github action are but also the issue template.
 The **documentation** repository contains all the documentation necessary to understand the project.
