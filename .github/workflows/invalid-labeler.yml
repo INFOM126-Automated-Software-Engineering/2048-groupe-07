@@ -18,7 +18,8 @@ jobs:
             console.log("Waiting for all checks to complete...");
             let allChecksCompleted = false;
             let attempt = 0;
-            const maxAttempts = 30;
+            const maxAttempts = 12; // 12 attempts for 2 minutes (12 * 10s = 120s)
+            const waitTimeMs = 10000; // 10 seconds between attempts
 
             while (!allChecksCompleted && attempt < maxAttempts) {
               attempt++;
@@ -42,7 +43,7 @@ jobs:
 
               if (!allChecksCompleted) {
                 console.log(`Attempt ${attempt}: Some checks are still in progress. Retrying in 10 seconds...`);
-                await new Promise(resolve => setTimeout(resolve, 10000)); // Wait 10 seconds
+                await new Promise(resolve => setTimeout(resolve, waitTimeMs)); // Wait 10 seconds
               }
             }
 
