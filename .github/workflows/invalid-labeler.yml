@@ -17,8 +17,12 @@ jobs:
 
             console.log("Waiting for all checks to complete...");
             let allChecksCompleted = false;
+            let attempt = 0;
+            const maxAttempts = 30;
 
-            while (!allChecksCompleted) {
+            while (!allChecksCompleted && attempt < maxAttempts) {
+              attempt++;
+
               // Fetch all checks for this pull request
               const { data: checkRuns } = await github.rest.checks.listForRef({
                 owner,
@@ -26,18 +30,25 @@ jobs:
                 ref: sha,
               });
 
-              // Check if there are any checks still in progress
+              // Log statuses of all checks
+              checkRuns.check_runs.forEach(run => {
+                console.log(`Check: ${run.name}, Status: ${run.status}, Conclusion: ${run.conclusion}`);
+              });
+
+              // Check if all checks are completed
               allChecksCompleted = checkRuns.check_runs.every(
                 run => run.status === "completed"
               );
 
               if (!allChecksCompleted) {
-                console.log("Some checks are still in progress. Waiting...");
+                console.log(`Attempt ${attempt}: Some checks are still in progress. Retrying in 10 seconds...`);
                 await new Promise(resolve => setTimeout(resolve, 10000)); // Wait 10 seconds
               }
             }
-            
-            console.log("All checks have completed.");
+
+            if (!allChecksCompleted) {
+              console.log(`Maximum attempts reached (${maxAttempts}). Proceeding with current statuses.`);
+            }
 
       - name: Fetch and evaluate check runs
         uses: actions/github-script@v6
