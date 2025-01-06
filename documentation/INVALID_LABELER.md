@@ -1,6 +1,6 @@
 # Invalid Labeler
 
-## 🎄 Overview
+## 🎄 Overview 
 This document explains the GitHub Custom Action Invalid.
 
 ## 📖 What is Invalid?

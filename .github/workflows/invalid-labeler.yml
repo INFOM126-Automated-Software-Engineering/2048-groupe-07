@@ -7,7 +7,51 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Fetch check runs
+      - name: Wait for all checks to complete
+        uses: actions/github-script@v6
+        with:
+          script: |
+            const owner = context.repo.owner;
+            const repo = context.repo.repo;
+            const sha = context.payload.pull_request.head.sha;
+
+            console.log("Waiting for all checks to complete...");
+            let allChecksCompleted = false;
+            let attempt = 0;
+            const maxAttempts = 12; // 12 attempts for 2 minutes (12 * 10s = 120s)
+            const waitTimeMs = 10000; // 10 seconds between attempts
+
+            while (!allChecksCompleted && attempt < maxAttempts) {
+              attempt++;
+
+              // Fetch all checks for this pull request
+              const { data: checkRuns } = await github.rest.checks.listForRef({
+                owner,
+                repo,
+                ref: sha,
+              });
+
+              // Log statuses of all checks
+              checkRuns.check_runs.forEach(run => {
+                console.log(`Check: ${run.name}, Status: ${run.status}, Conclusion: ${run.conclusion}`);
+              });
+
+              // Check if all checks are completed
+              allChecksCompleted = checkRuns.check_runs.every(
+                run => run.status === "completed"
+              );
+
+              if (!allChecksCompleted) {
+                console.log(`Attempt ${attempt}: Some checks are still in progress. Retrying in 10 seconds...`);
+                await new Promise(resolve => setTimeout(resolve, waitTimeMs)); // Wait 10 seconds
+              }
+            }
+
+            if (!allChecksCompleted) {
+              console.log(`Maximum attempts reached (${maxAttempts}). Proceeding with current statuses.`);
+            }
+
+      - name: Fetch and evaluate check runs
         uses: actions/github-script@v6
         with:
           script: |
